@@ -1,0 +1,36 @@
+.cell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid grey;
+}
+
+.cell.filled {
+  background: black;
+  color: white;
+}
+
+.cell .left-cross {
+  position: absolute;
+  border-top: 1px solid grey;
+  transform: rotate(45deg);
+  top: 7px;
+  left: -25px;
+  width: 45px;
+  height: 45px;
+  pointer-events: none;
+}
+
+.cell .right-cross {
+  position: absolute;
+  border-left: 1px solid grey;
+  transform: rotate(45deg);
+  top: 9px;
+  left: 7px;
+  width: 45px;
+  height: 45px;
+  pointer-events: none;
+}

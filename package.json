@@ -1,0 +1,19 @@
+{
+  "name": "fill-a-pix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "classnames": "^2.5.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.3"
+  }
+}
